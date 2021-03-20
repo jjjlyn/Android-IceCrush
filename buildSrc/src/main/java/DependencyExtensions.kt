@@ -46,13 +46,23 @@ fun DependencyHandlerScope.util() {
 
 }
 
-
-
-
 fun DependencyHandlerScope.image() {
     "kapt"(Libraries.glideCompiler)
     "implementation"(Libraries.glide)
     "implementation"(Libraries.glideOkHttpIntegration)
     "implementation"(Libraries.lottie)
+}
+
+fun DependencyHandlerScope.compose() {
+    "implementation"(Libraries.composeUI)
+    "implementation"(Libraries.composeUITool)
+    "implementation"(Libraries.composeFoundation)
+    "implementation"(Libraries.composeMaterial)
+    "implementation"(Libraries.composeMaterialIconCore)
+    "implementation"(Libraries.composeMaterialIconExtension)
+    "implementation"(Libraries.composeViewModel)
+    "implementation"(Libraries.composeActivity)
+    "implementation"(Libraries.composeLiveData)
+    "implementation"(Libraries.composeRxJava)
 }
 

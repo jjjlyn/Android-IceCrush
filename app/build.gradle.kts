@@ -21,6 +21,8 @@ dependencies {
     androidX()
     androidXLifecycle()
     di()
-    util()
     network()
+    util()
+    image()
+    compose()
 }
