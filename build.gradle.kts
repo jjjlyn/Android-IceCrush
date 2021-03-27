@@ -10,7 +10,7 @@ buildscript {
         classpath(BuildPlugins.androidGradlePlugin)
         classpath(BuildPlugins.kotlinGradlePlugin)
         classpath(BuildPlugins.navigationSafeArgsPlugin)
-        classpath(BuildPlugins.hiltPlugin)
+//        classpath(BuildPlugins.hiltPlugin)
     }
 }
 

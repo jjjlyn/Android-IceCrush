@@ -3,10 +3,9 @@ plugins {
     kotlin("android")
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
-    id("dagger.hilt.android.plugin")
-
-
+//    id("dagger.hilt.android.plugin")
 }
+
 (android as com.android.build.gradle.internal.dsl.BaseAppModuleExtension).run {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
@@ -20,7 +19,7 @@ dependencies {
     kotlinLibraries()
     androidX()
     androidXLifecycle()
-    di()
+//    di()
     network()
     util()
     image()
