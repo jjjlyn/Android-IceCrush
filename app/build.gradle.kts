@@ -3,7 +3,7 @@ plugins {
     kotlin("android")
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
-//    id("dagger.hilt.android.plugin")
+    id("dagger.hilt.android.plugin")
 }
 
 (android as com.android.build.gradle.internal.dsl.BaseAppModuleExtension).run {
@@ -19,7 +19,7 @@ dependencies {
     kotlinLibraries()
     androidX()
     androidXLifecycle()
-//    di()
+    di()
     network()
     util()
     image()

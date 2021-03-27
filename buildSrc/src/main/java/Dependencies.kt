@@ -20,6 +20,7 @@ object BuildPlugins {
     object Versions {
         const val androidGradleVersion = "4.1.2"
         const val hilt = "2.33-beta"
+        const val hiltJetpack = "1.0.0-beta01"
         const val kotlinVersion = "1.4.30"
     }
 
@@ -30,6 +31,7 @@ object BuildPlugins {
     const val navigationSafeArgsPlugin =
         "androidx.navigation:navigation-safe-args-gradle-plugin:2.2.1"
     const val hiltPlugin = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
+
 
 }
 
@@ -89,6 +91,7 @@ object Libraries {
 
     //di
     const val hilt = "com.google.dagger:hilt-android:${BuildPlugins.Versions.hilt}"
+    const val androidxHiltCompiler = "androidx.hilt:hilt-compiler:${BuildPlugins.Versions.hiltJetpack}"
     const val hiltCompiler = "com.google.dagger:hilt-android-compiler:${BuildPlugins.Versions.hilt}"
     const val hiltNavigation = "androidx.hilt:hilt-navigation-fragment:1.0.0-alpha03"
 
