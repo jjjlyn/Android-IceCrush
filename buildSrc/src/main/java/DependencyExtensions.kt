@@ -31,6 +31,7 @@ fun DependencyHandlerScope.di() {
     "implementation"(Libraries.hilt)
     "implementation"(Libraries.hiltNavigation)
     "kapt"(Libraries.hiltCompiler)
+    "kapt"(Libraries.androidxHiltCompiler)
 }
 
 fun DependencyHandlerScope.network() {

@@ -1,4 +1,3 @@
-
 import com.android.build.gradle.BaseExtension
 import com.android.build.gradle.internal.dsl.DefaultConfig
 import org.gradle.api.JavaVersion
@@ -47,10 +46,10 @@ fun Project.androidApplicationConfigs() {
 //                storeFile = file("keystores/debug.keystore")
 //            }
             create("release") {
-                storeFile = file("$rootProject.projectDir/" + project.property("keystorefilename"))
-                keyAlias = project.property("keyalias") as String?
-                storePassword = project.property("storepassword") as String?
-                keyPassword = project.property("keypassword") as String?
+//                storeFile = file("$rootProject.projectDir/" + project.property("keystorefilename"))
+//                keyAlias = project.property("keyalias") as String?
+//                storePassword = project.property("storepassword") as String?
+//                keyPassword = project.property("keypassword") as String?
             }
         }
 

@@ -4,9 +4,8 @@ plugins {
     kotlin("kapt")
     id("androidx.navigation.safeargs.kotlin")
     id("dagger.hilt.android.plugin")
-
-
 }
+
 (android as com.android.build.gradle.internal.dsl.BaseAppModuleExtension).run {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
