@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   apk:
-    name: Generate APK
+    name: Build APK
     runs-on: ubuntu-latest
 
     steps:
