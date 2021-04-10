@@ -49,3 +49,6 @@ freeline_project_description.json
 
 # DS_Store
 *.DS_Store
+
+# PRIVATE_KEY
+app/google-services.json
