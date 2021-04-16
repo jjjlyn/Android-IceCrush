@@ -11,11 +11,17 @@ plugins {
         jvmTarget = JavaVersion.VERSION_1_8.toString()
     }
 }
+
 androidApplicationConfig()
 
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    implementation(project(":core"))
+    implementation(project(":data:api"))
+    implementation(project(":data:db"))
+    implementation(project(":data:repository"))
+    implementation(project(":feature:main"))
     kotlinLibraries()
     androidX()
     androidXLifecycle()
