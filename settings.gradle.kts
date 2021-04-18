@@ -1,6 +1,6 @@
 include(":feature:main")
+include(":feature:core")
 include(":model")
-include(":core")
 include(":data:db")
 include(":data:repository")
 include(":data:api")
