@@ -1,4 +1,4 @@
-package com.mmm.icecrush
+package com.mmm.icecrush.core
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.StateFlow
