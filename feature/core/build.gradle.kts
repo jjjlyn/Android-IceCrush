@@ -7,6 +7,12 @@ plugins {
 
 commonAndroidConfig()
 
+android {
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+}
+
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     api(project(":model"))
@@ -16,4 +22,5 @@ dependencies {
     di()
     network()
     util()
+    compose()
 }
